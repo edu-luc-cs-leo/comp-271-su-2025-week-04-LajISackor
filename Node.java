@@ -30,6 +30,14 @@ public class Node implements BasicGoodBehavior, Comparable<Node> {
         this(DEFAULT_VALUE);
     } // default constructor
 
+    public Node getNext() {
+        return this.next;
+    } // method getNext
+
+    public Node getPrevious() {
+        return this.previous; 
+    } // method getPrevious
+
     /** Accessor for value */
     public String getValue() {
         return value;
